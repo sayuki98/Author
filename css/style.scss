@@ -22,6 +22,23 @@ header.container{
 
   .navbar{
     margin-bottom: 0;
+
+    .container-fluid{
+      .navbar-toggle{
+        border: none;
+        margin-top: 40px;
+        padding: 0;
+
+        &:hover,
+        &:focus{
+          background-color: transparent;
+        }
+
+        .icon-bar{
+          background-color: $main_color;
+        }
+      }
+    }
   }
 
   .navbar-default{
@@ -31,12 +48,20 @@ header.container{
     background-color: #ffffff;
     border-radius: 0;
 
+    .navbar-collapse{
+      border: none;
+    }
+
     .navbar-brand{
       height: auto;
       padding: 31px 0;
 
       @include max-screen(768px){
         margin-left: -10px;
+      }
+
+      @include max-screen(415px){
+        margin-left: 10px;
       }
     }
 
