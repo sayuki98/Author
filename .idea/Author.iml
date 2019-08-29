@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="bootstrap" />
     <orderEntry type="module" module-name="Elegant" />
+    <orderEntry type="module" module-name="Fapor" />
   </component>
 </module>

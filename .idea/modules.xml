@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Author.iml" filepath="$PROJECT_DIR$/.idea/Author.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Elegant/.idea/Elegant.iml" filepath="$PROJECT_DIR$/../Elegant/.idea/Elegant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Fapor/.idea/Fapor.iml" filepath="$PROJECT_DIR$/../Fapor/.idea/Fapor.iml" />
       <module fileurl="file://$PROJECT_DIR$/../bootstrap/.idea/bootstrap.iml" filepath="$PROJECT_DIR$/../bootstrap/.idea/bootstrap.iml" />
     </modules>
   </component>
