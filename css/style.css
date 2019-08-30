@@ -1,8 +1,21 @@
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url("../fonts/OpenSansRegular.eot");
+  src: url("../fonts/OpenSansRegular.eot") format("embedded-opentype"), url("../fonts/OpenSansRegular.woff2") format("woff2"), url("../fonts/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular.ttf") format("truetype"), url("../fonts/OpenSansRegular.svg#OpenSansRegular") format("svg"); }
+@font-face {
+  font-family: 'OpenSansSemibold';
+  src: url("../fonts/OpenSansSemibold.eot");
+  src: url("../fonts/OpenSansSemibold.eot") format("embedded-opentype"), url("../fonts/OpenSansSemibold.woff2") format("woff2"), url("../fonts/OpenSansSemibold.woff") format("woff"), url("../fonts/OpenSansSemibold.ttf") format("truetype"), url("../fonts/OpenSansSemibold.svg#OpenSansSemibold") format("svg"); }
+@font-face {
+  font-family: 'OpenSansExtraBold';
+  src: url("../fonts/OpenSansExtraBold.eot");
+  src: url("../fonts/OpenSansExtraBold.eot") format("embedded-opentype"), url("../fonts/OpenSansExtraBold.woff2") format("woff2"), url("../fonts/OpenSansExtraBold.woff") format("woff"), url("../fonts/OpenSansExtraBold.ttf") format("truetype"), url("../fonts/OpenSansExtraBold.svg#OpenSansExtraBold") format("svg"); }
 * {
   margin: 0;
   padding: 0;
   font-size: inherit;
   color: inherit;
+  font-family: 'OpenSansRegular';
   -webkit-font-smoothing: antialiased; }
 
 html {
@@ -59,7 +72,8 @@ header.container .navbar-default {
     color: #FFFFFF; }
     .owl-carousel .carousel h1, .owl-carousel .carousel h2 {
       font-size: 63px;
-      margin: 0 0 30px; }
+      margin: 0 0 30px;
+      font-family: 'OpenSansSemibold'; }
     .owl-carousel .carousel p {
       font-size: 23px;
       margin: 0 0 56px; }
@@ -70,7 +84,8 @@ header.container .navbar-default {
       border-radius: 5px;
       padding: 18px 42px;
       display: inline-block;
-      text-decoration: none; }
+      text-decoration: none;
+      font-family: 'OpenSansSemibold'; }
   .owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
     display: block; }
   .owl-carousel .owl-dots {
@@ -124,7 +139,8 @@ header.container .navbar-default {
         font-size: 85px;
         color: #f46d6d;
         visibility: hidden;
-        text-decoration: none; }
+        text-decoration: none;
+        font-family: 'OpenSansExtraBold'; }
       .team .col-md-3 .img_wrap:hover .img_plus {
         visibility: visible; }
     .team .col-md-3 h3 {

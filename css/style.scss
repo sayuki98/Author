@@ -7,11 +7,42 @@ $price_color: #485460;
     @content;
   }
 }
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('../fonts/OpenSansRegular.eot');
+  src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+  url('../fonts/OpenSansRegular.woff2') format('woff2'),
+  url('../fonts/OpenSansRegular.woff') format('woff'),
+  url('../fonts/OpenSansRegular.ttf') format('truetype'),
+  url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+  font-family: 'OpenSansSemibold';
+  src: url('../fonts/OpenSansSemibold.eot');
+  src: url('../fonts/OpenSansSemibold.eot') format('embedded-opentype'),
+  url('../fonts/OpenSansSemibold.woff2') format('woff2'),
+  url('../fonts/OpenSansSemibold.woff') format('woff'),
+  url('../fonts/OpenSansSemibold.ttf') format('truetype'),
+  url('../fonts/OpenSansSemibold.svg#OpenSansSemibold') format('svg');
+}
+@font-face {
+  font-family: 'OpenSansExtraBold';
+  src: url('../fonts/OpenSansExtraBold.eot');
+  src: url('../fonts/OpenSansExtraBold.eot') format('embedded-opentype'),
+  url('../fonts/OpenSansExtraBold.woff2') format('woff2'),
+  url('../fonts/OpenSansExtraBold.woff') format('woff'),
+  url('../fonts/OpenSansExtraBold.ttf') format('truetype'),
+  url('../fonts/OpenSansExtraBold.svg#OpenSansExtraBold') format('svg');
+}
+
 * {
   margin: 0;
   padding: 0;
   font-size: inherit;
   color: inherit;
+  font-family: 'OpenSansRegular';
   -webkit-font-smoothing: antialiased;
 }
 
@@ -100,6 +131,7 @@ header.container{
     h1, h2{
       font-size: 63px;
       margin: 0 0 30px;
+      font-family: 'OpenSansSemibold';
     }
 
     p{
@@ -115,6 +147,7 @@ header.container{
       padding: 18px 42px;
       display: inline-block;
       text-decoration: none;
+      font-family: 'OpenSansSemibold';
     }
   }
 
@@ -189,6 +222,7 @@ header.container{
         color: #f46d6d;
         visibility: hidden;
         text-decoration: none;
+        font-family: 'OpenSansExtraBold';
 
       }
       &:hover{
@@ -386,6 +420,7 @@ footer{
         border-radius: 2px;
         text-align: center;
         font-size: 22px;
+
 
         @include max-screen (415px){
           width: 100%;
