@@ -1,5 +1,6 @@
 $main_color: #49cbcd;
 $main_color_text: #484c55;
+$team_color: #4e525d;
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
@@ -111,6 +112,7 @@ header.container{
       border-radius: 5px;
       padding: 18px 42px;
       display: inline-block;
+      text-decoration: none;
     }
   }
 
@@ -151,6 +153,58 @@ header.container{
     }
     button.owl-next{
       right: 29px;
+    }
+  }
+}
+
+.team{
+  color: $team_color;
+  text-align: center;
+  padding: 100px 0;
+  .col-md-12{
+    h2{
+      font-size: 42px;
+      text-transform: capitalize;
+      padding-bottom: 134px;
+    }
+  }
+
+  .col-md-3{
+    padding-left: 25px;
+    padding-right: 25px;
+    .img_wrap{
+      position: relative;
+      margin-bottom: 70px;
+      .img_plus{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 85px;
+        color: #f46d6d;
+        visibility: hidden;
+        text-decoration: none;
+
+      }
+      &:hover{
+        .img_plus {
+          visibility: visible;
+        }
+      }
+    }
+
+    h3{
+      font-size: 22px;
+    }
+
+    span{
+      font-size: 14px;
+    }
+
+    p{
+      padding-top: 30px;
+      font-size: 14px;
     }
   }
 }
