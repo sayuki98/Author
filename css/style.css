@@ -35,16 +35,18 @@ header.container .navbar-default {
     @media screen and (max-width: 415px) {
       header.container .navbar-default .navbar-brand {
         margin-left: 10px; } }
-  header.container .navbar-default .navbar-nav li a {
-    padding: 0 30px;
-    line-height: 97px;
-    text-transform: capitalize;
-    border-bottom: 3px solid transparent;
-    color: #484c55; }
-    header.container .navbar-default .navbar-nav li a:hover {
-      background-color: #f8f9fb;
-      border-bottom: 3px solid #49cbcd;
-      color: #49cbcd; }
+  header.container .navbar-default .navbar-nav {
+    margin-bottom: 0; }
+    header.container .navbar-default .navbar-nav li a {
+      padding: 0 30px;
+      line-height: 97px;
+      text-transform: capitalize;
+      border-bottom: 3px solid transparent;
+      color: #484c55; }
+      header.container .navbar-default .navbar-nav li a:hover {
+        background-color: #f8f9fb;
+        border-bottom: 3px solid #49cbcd;
+        color: #49cbcd; }
 
 .owl-carousel {
   background-image: url("../images/banner.png");
@@ -100,7 +102,7 @@ header.container .navbar-default {
 .team {
   color: #4e525d;
   text-align: center;
-  padding: 100px 0; }
+  padding-top: 100px; }
   .team .col-md-12 h2 {
     font-size: 42px;
     text-transform: capitalize;
@@ -108,7 +110,8 @@ header.container .navbar-default {
     margin: 0; }
   .team .col-md-3 {
     padding-left: 25px;
-    padding-right: 25px; }
+    padding-right: 25px;
+    margin-bottom: 100px; }
     .team .col-md-3 .img_wrap {
       position: relative;
       margin-bottom: 70px; }
@@ -135,12 +138,13 @@ header.container .navbar-default {
 .buy_now {
   background-color: #f1f1f1;
   text-align: center;
-  padding-top: 119px;
-  padding-bottom: 100px; }
-  .buy_now .col-md-4:nth-of-type(2) .price h2 {
-    background-color: #49cbcd; }
-  .buy_now .col-md-4:nth-of-type(2) .price a {
-    background-color: #49cbcd; }
+  padding-top: 119px; }
+  .buy_now .col-md-4 {
+    margin-bottom: 100px; }
+    .buy_now .col-md-4:nth-of-type(2) .price h2 {
+      background-color: #49cbcd; }
+    .buy_now .col-md-4:nth-of-type(2) .price a {
+      background-color: #49cbcd; }
   .buy_now .price {
     background-color: #f8f9fb;
     border-radius: 1px;
@@ -174,5 +178,91 @@ header.container .navbar-default {
       width: 170px;
       line-height: 40px;
       border-radius: 2px; }
+
+footer {
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 98px;
+  color: #FFFFFF; }
+  footer .col-md-12 h2 {
+    text-align: center;
+    font-size: 42px;
+    padding-bottom: 100px; }
+  footer .info h3 {
+    font-size: 24px; }
+  footer .info p {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-bottom: 40px;
+    line-height: 20px; }
+    footer .info p:last-of-type {
+      color: #bface2;
+      opacity: 1;
+      line-height: 24px; }
+  footer .info a {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #3ec2f3;
+    margin-bottom: 20px; }
+    footer .info a:first-of-type {
+      background-color: #3b5997;
+      margin-right: 15px; }
+    footer .info a:last-of-type {
+      background-color: #e44c41;
+      margin-left: 15px; }
+    footer .info a i {
+      line-height: 42px;
+      font-size: 22px; }
+  footer .form {
+    padding-right: 0; }
+    footer .form form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end; }
+      @media screen and (max-width: 1024px) {
+        footer .form form {
+          padding-right: 15px; } }
+      footer .form form input {
+        width: 270px;
+        line-height: 44px;
+        margin-bottom: 31px;
+        border: none;
+        padding-left: 21px;
+        box-sizing: border-box;
+        border-radius: 2px; }
+        footer .form form input:first-of-type {
+          margin-right: 30px; }
+        @media screen and (max-width: 1024px) {
+          footer .form form input {
+            width: 100%; }
+            footer .form form input:first-of-type {
+              margin-right: 0; } }
+      footer .form form textarea {
+        width: 100%;
+        border: none;
+        padding-left: 21px;
+        box-sizing: border-box;
+        padding-top: 18px;
+        border-radius: 2px;
+        resize: none;
+        min-height: 179px;
+        margin-bottom: 31px; }
+      footer .form form button {
+        background-color: #49cbcd;
+        border: none;
+        line-height: 50px;
+        width: 170px;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 22px; }
+        @media screen and (max-width: 415px) {
+          footer .form form button {
+            width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
