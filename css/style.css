@@ -104,7 +104,8 @@ header.container .navbar-default {
   .team .col-md-12 h2 {
     font-size: 42px;
     text-transform: capitalize;
-    padding-bottom: 134px; }
+    padding-bottom: 134px;
+    margin: 0; }
   .team .col-md-3 {
     padding-left: 25px;
     padding-right: 25px; }
@@ -130,5 +131,48 @@ header.container .navbar-default {
     .team .col-md-3 p {
       padding-top: 30px;
       font-size: 14px; }
+
+.buy_now {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding-top: 119px;
+  padding-bottom: 100px; }
+  .buy_now .col-md-4:nth-of-type(2) .price h2 {
+    background-color: #49cbcd; }
+  .buy_now .col-md-4:nth-of-type(2) .price a {
+    background-color: #49cbcd; }
+  .buy_now .price {
+    background-color: #f8f9fb;
+    border-radius: 1px;
+    list-style: none; }
+    .buy_now .price h2 {
+      background-color: #485460;
+      color: #FFFFFF;
+      line-height: 75px;
+      font-size: 26px;
+      margin: 0;
+      border-top-left-radius: 1px;
+      border-top-right-radius: 1px; }
+    .buy_now .price p {
+      font-size: 20px;
+      line-height: 68px;
+      color: #485460; }
+    .buy_now .price ul {
+      list-style: none; }
+      .buy_now .price ul li {
+        background-color: #FFFFFF;
+        border-top: 1px solid #ecf0f1;
+        border-bottom: 1px solid #ecf0f1;
+        line-height: 45px;
+        color: #8c9299; }
+    .buy_now .price a {
+      display: inline-block;
+      margin: 20px 0 30px;
+      background-color: #788492;
+      color: #FFFFFF;
+      text-decoration: none;
+      width: 170px;
+      line-height: 40px;
+      border-radius: 2px; }
 
 /*# sourceMappingURL=style.css.map */
