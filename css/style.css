@@ -8,47 +8,43 @@
 html {
   height: 100%; }
 
-header.container {
-  padding: 0; }
-  header.container .navbar {
-    margin-bottom: 0; }
-    header.container .navbar .container-fluid .navbar-toggle {
-      border: none;
-      margin-top: 40px;
-      padding: 0; }
-      header.container .navbar .container-fluid .navbar-toggle:hover, header.container .navbar .container-fluid .navbar-toggle:focus {
-        background-color: transparent; }
-      header.container .navbar .container-fluid .navbar-toggle .icon-bar {
-        background-color: #49cbcd; }
-  header.container .navbar-default {
-    background-image: none;
-    box-shadow: none;
+header.container .navbar {
+  margin-bottom: 0; }
+  header.container .navbar .container-fluid .navbar-toggle {
     border: none;
-    background-color: #ffffff;
-    border-radius: 0; }
-    header.container .navbar-default .navbar-collapse {
-      border: none; }
-    header.container .navbar-default .navbar-brand {
-      height: auto;
-      padding: 31px 0; }
-      @media screen and (max-width: 768px) {
-        header.container .navbar-default .navbar-brand {
-          margin-left: -10px; } }
-      @media screen and (max-width: 415px) {
-        header.container .navbar-default .navbar-brand {
-          margin-left: 10px; } }
-    header.container .navbar-default .navbar-nav {
-      padding: 0; }
-      header.container .navbar-default .navbar-nav li a {
-        padding: 0 30px;
-        line-height: 97px;
-        text-transform: capitalize;
-        border-bottom: 3px solid transparent;
-        color: #484c55; }
-        header.container .navbar-default .navbar-nav li a:hover {
-          background-color: #f8f9fb;
-          border-bottom: 3px solid #49cbcd;
-          color: #49cbcd; }
+    margin-top: 40px; }
+    header.container .navbar .container-fluid .navbar-toggle:hover, header.container .navbar .container-fluid .navbar-toggle:focus {
+      background-color: transparent; }
+    header.container .navbar .container-fluid .navbar-toggle .icon-bar {
+      background-color: #49cbcd; }
+header.container .navbar-default {
+  background-image: none;
+  box-shadow: none;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 0; }
+  header.container .navbar-default .navbar-collapse {
+    border: none;
+    padding: 0; }
+  header.container .navbar-default .navbar-brand {
+    height: auto;
+    padding: 31px 0; }
+    @media screen and (max-width: 768px) {
+      header.container .navbar-default .navbar-brand {
+        margin-left: -10px; } }
+    @media screen and (max-width: 415px) {
+      header.container .navbar-default .navbar-brand {
+        margin-left: 10px; } }
+  header.container .navbar-default .navbar-nav li a {
+    padding: 0 30px;
+    line-height: 97px;
+    text-transform: capitalize;
+    border-bottom: 3px solid transparent;
+    color: #484c55; }
+    header.container .navbar-default .navbar-nav li a:hover {
+      background-color: #f8f9fb;
+      border-bottom: 3px solid #49cbcd;
+      color: #49cbcd; }
 
 .owl-carousel {
   background-image: url("../images/banner.png");
