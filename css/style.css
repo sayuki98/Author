@@ -235,50 +235,31 @@ footer {
     footer .info a i {
       line-height: 42px;
       font-size: 22px; }
-  footer .form {
-    padding-right: 0; }
-    footer .form form {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-end; }
-      @media screen and (max-width: 1024px) {
-        footer .form form {
-          padding-right: 15px; } }
-      footer .form form input {
-        width: 270px;
-        line-height: 44px;
-        margin-bottom: 31px;
-        border: none;
-        padding-left: 21px;
-        box-sizing: border-box;
-        border-radius: 2px; }
-        footer .form form input:first-of-type {
-          margin-right: 30px; }
-        @media screen and (max-width: 1024px) {
-          footer .form form input {
-            width: 100%; }
-            footer .form form input:first-of-type {
-              margin-right: 0; } }
-      footer .form form textarea {
-        width: 100%;
-        border: none;
-        padding-left: 21px;
-        box-sizing: border-box;
-        padding-top: 18px;
-        border-radius: 2px;
-        resize: none;
-        min-height: 179px;
-        margin-bottom: 31px; }
-      footer .form form button {
-        background-color: #49cbcd;
-        border: none;
-        line-height: 50px;
-        width: 170px;
-        border-radius: 2px;
-        text-align: center;
-        font-size: 22px; }
-        @media screen and (max-width: 415px) {
-          footer .form form button {
-            width: 100%; } }
+  footer form input {
+    line-height: 44px;
+    margin-bottom: 31px;
+    border: none;
+    padding-left: 21px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 100%; }
+  footer form textarea {
+    border: none;
+    padding-left: 21px;
+    box-sizing: border-box;
+    padding-top: 18px;
+    border-radius: 2px;
+    resize: none;
+    min-height: 179px;
+    width: 100%;
+    margin-bottom: 31px; }
+  footer form button {
+    background-color: #49cbcd;
+    border: none;
+    line-height: 50px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 22px;
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
