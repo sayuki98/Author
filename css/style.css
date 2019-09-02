@@ -175,10 +175,9 @@ header.container .navbar-default {
       background-color: #49cbcd; }
   .buy_now ul {
     background-color: #FFFFFF;
-    border-radius: 2px;
-    list-style: none; }
+    list-style: none;
+    border-radius: 2px; }
     .buy_now ul li {
-      border-top: 1px solid #ecf0f1;
       border-bottom: 1px solid #ecf0f1;
       line-height: 45px;
       color: #8c9299; }
@@ -197,7 +196,9 @@ header.container .navbar-default {
         color: #485460;
         background-color: #f8f9fb; }
       .buy_now ul li:last-of-type {
-        background-color: #f8f9fb; }
+        background-color: #f8f9fb;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px; }
         .buy_now ul li:last-of-type a {
           display: inline-block;
           margin: 20px 0 30px;
@@ -215,7 +216,7 @@ footer {
   padding-top: 80px;
   padding-bottom: 98px;
   color: #FFFFFF; }
-  footer .col-md-12 h2 {
+  footer h2 {
     text-align: center;
     font-size: 42px;
     padding-bottom: 100px; }
