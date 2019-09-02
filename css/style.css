@@ -114,41 +114,53 @@ header.container .navbar-default {
     .owl-carousel .owl-nav button.owl-next {
       right: 29px; }
 
-.team {
+.the_team {
   color: #4e525d;
   text-align: center;
   padding-top: 100px; }
-  .team .col-md-12 h2 {
+  .the_team h2 {
     font-size: 42px;
     text-transform: capitalize;
     padding-bottom: 134px;
     margin: 0; }
-  .team .col-md-3 {
+  .the_team .col-md-3 {
     padding-left: 25px;
     padding-right: 25px;
     margin-bottom: 100px; }
-    .team .col-md-3 .img_wrap {
+    .the_team .col-md-3 .img-circle {
+      margin-bottom: 70px;
+      width: 200px;
+      height: 200px;
+      background-color: #eeeef0;
+      display: inline-block;
+      border-radius: 50%;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center center;
       position: relative;
-      margin-bottom: 70px; }
-      .team .col-md-3 .img_wrap .img_plus {
+      cursor: pointer; }
+      .the_team .col-md-3 .img-circle:hover:after {
+        content: "+";
+        display: block;
         position: absolute;
-        left: 0;
-        right: 0;
+        left: 39%;
         top: 50%;
         transform: translateY(-50%);
         font-size: 85px;
         color: #f46d6d;
-        visibility: hidden;
         text-decoration: none;
-        font-family: 'OpenSansExtraBold'; }
-      .team .col-md-3 .img_wrap:hover .img_plus {
-        visibility: visible; }
-    .team .col-md-3 h3 {
+        font-family: 'OpenSansExtraBold';
+        transition: 0.3s; }
+      .the_team .col-md-3 .img-circle img {
+        width: 100%; }
+    .the_team .col-md-3 h3 {
       font-size: 22px; }
-    .team .col-md-3 span {
-      font-size: 14px; }
-    .team .col-md-3 p {
-      padding-top: 30px;
+      .the_team .col-md-3 h3 span {
+        display: block;
+        font-size: 14px;
+        padding-top: 10px; }
+    .the_team .col-md-3 p {
+      padding-top: 20px;
       font-size: 14px; }
 
 .buy_now {
@@ -157,43 +169,44 @@ header.container .navbar-default {
   padding-top: 119px; }
   .buy_now .col-md-4 {
     margin-bottom: 100px; }
-    .buy_now .col-md-4:nth-of-type(2) .price h2 {
+    .buy_now .col-md-4:nth-of-type(2) ul li:first-of-type {
       background-color: #49cbcd; }
-    .buy_now .col-md-4:nth-of-type(2) .price a {
+    .buy_now .col-md-4:nth-of-type(2) ul li:last-of-type a {
       background-color: #49cbcd; }
-  .buy_now .price {
-    background-color: #f8f9fb;
-    border-radius: 1px;
+  .buy_now ul {
+    background-color: #FFFFFF;
+    border-radius: 2px;
     list-style: none; }
-    .buy_now .price h2 {
-      background-color: #485460;
-      color: #FFFFFF;
-      line-height: 75px;
-      font-size: 26px;
-      margin: 0;
-      border-top-left-radius: 1px;
-      border-top-right-radius: 1px; }
-    .buy_now .price p {
-      font-size: 20px;
-      line-height: 68px;
-      color: #485460; }
-    .buy_now .price ul {
-      list-style: none; }
-      .buy_now .price ul li {
-        background-color: #FFFFFF;
-        border-top: 1px solid #ecf0f1;
-        border-bottom: 1px solid #ecf0f1;
-        line-height: 45px;
-        color: #8c9299; }
-    .buy_now .price a {
-      display: inline-block;
-      margin: 20px 0 30px;
-      background-color: #788492;
-      color: #FFFFFF;
-      text-decoration: none;
-      width: 170px;
-      line-height: 40px;
-      border-radius: 2px; }
+    .buy_now ul li {
+      border-top: 1px solid #ecf0f1;
+      border-bottom: 1px solid #ecf0f1;
+      line-height: 45px;
+      color: #8c9299; }
+      .buy_now ul li:first-of-type {
+        background-color: #485460;
+        color: #FFFFFF;
+        line-height: 75px;
+        font-size: 26px;
+        margin: 0;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border: none; }
+      .buy_now ul li:nth-of-type(2) {
+        font-size: 20px;
+        line-height: 68px;
+        color: #485460;
+        background-color: #f8f9fb; }
+      .buy_now ul li:last-of-type {
+        background-color: #f8f9fb; }
+        .buy_now ul li:last-of-type a {
+          display: inline-block;
+          margin: 20px 0 30px;
+          background-color: #788492;
+          color: #FFFFFF;
+          text-decoration: none;
+          width: 170px;
+          line-height: 40px;
+          border-radius: 2px; }
 
 footer {
   background-image: url(../images/footer.png);
